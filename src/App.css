@@ -1,1 +1,216 @@
 /* Other rules */
+.logo {
+  height: 50px;
+  margin: 10px 20px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.research {
+  width: 40%;
+  background-color: lightgrey;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.logOut {
+  background-color: palevioletred;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.sales {
+  background-color: rgb(64, 192, 224);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.profile {
+  border-color: rgb(64, 192, 224);
+  color: rgb(64, 192, 224);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 25px;
+  color: black;
+  padding-left: 30px;
+  margin-bottom: 5px;
+}
+
+.prodDesc {
+  color: gray;
+  padding-left: 30px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.offers {
+  margin-top: 30px;
+}
+
+.banner {
+  max-width: 1024px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  max-height: 600px;
+  max-width: 1024px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+.motto {
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.submitForm {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.submitForm > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offerProfile {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.product {
+  background-color: white;
+  flex: 1;
+  min-width: 40%;
+  padding: 0 20px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.productPic {
+  min-width: 40%;
+}
+
+.productDetails {
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.offerBody {
+  background-color: lightgrey;
+  height: 1080px;
+  padding-top: 50px;
+}
+
+.itemName {
+  display: flex;
+  flex-direction: column;
+  border-bottom: lightgrey solid 2px;
+  margin-bottom: 30px;
+}
+
+.itemName > span {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.itemDesc {
+  display: flex;
+  flex-direction: column;
+  border-bottom: lightgrey solid 2px;
+  margin-bottom: 30px;
+}
+
+.itemDesc > span {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+span > input {
+  width: 50%;
+  border-color: lightgrey;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.itemPrice {
+  margin-bottom: 50px;
+}
+
+.insertPic {
+  margin: auto;
+  border: rgb(64, 179, 224) solid 3px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  color: rgb(64, 179, 224);
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForm {
+  padding: 15px 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: orangered solid 1px;
+  margin-bottom: 20px;
+}
+
+.signUpLink {
+  color: rgb(64, 147, 224);
+}
